@@ -1,0 +1,37 @@
+[
+    {
+        "filter_name": "oplus_adfr_config"
+    },
+    {
+        "version": 20210817
+    },
+    {
+        "sub_version": "1.0.0"
+    },
+    {
+        "touch_idle": true,
+        "hw_enable": true,
+        "sw_enable": true,
+        "adfr_enable": false,
+        "timeout": 4000,
+        "hw_brightness_limit": 200,
+        "hw_gray": true,
+        "hw_gray_threshold": 55,
+        "hw_gray_percent": 70,
+
+        "blacklist": [
+            "com.android.settings",
+            "com.tencent.tvoem",
+            "com.tencent.qqlive",
+            "com.tencent.ig",
+            "com.riotgames.league.wildrift",
+            "com.youku.phone"
+        ]
+    },
+    {
+        "cvt": true
+    },
+    {
+        "frtc": true
+    }
+]

@@ -1,0 +1,15 @@
+<oplus-config>
+
+    <oplus-feature name="oplus.software.radio.support_dual_nr"/>
+    <!-- Asiga@NETWORK.POWER.26376, 2020/04/27, modify for Feature Toggle -->
+    <oplus-feature name="oplus.software.radio.nwpower_static_netcontroller_enabled" />
+    <!-- KangJin@NETWORK.DATA.1207635, 20201/03/09, add foreign sw disalbe nw limit notification-->
+    <oplus-feature name="oplus.software.radio.disable_nw_limit_notify"/>
+
+    <!-- david.dong@NETWORK.RF, 2022/03/07, modify for sar test -->
+    <oplus-feature name="oplus.software.radio.sar_via_sts_support"/>
+    <!-- TulikaSnehil@NETWORK.TEL, 2021/03/31, add user agent customization-->
+    <oplus-feature name="oplus.software.radio.set_useragent_via_carrierconfig"/>
+    <!--WangJianwei@NETWORK.CALL, 2020/11/7, add for vonr switch and dynamic update-->
+    <oplus-feature name="oplus.software.radio.vonr_switch_enabled"/>
+</oplus-config>

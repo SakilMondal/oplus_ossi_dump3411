@@ -1,0 +1,4 @@
+<oplus-config>
+    <!-- yanweibo@MULTIMEDIA.AUDIOSERVER>BASE.2020/12/08. Add for Alert Slider feature start -->
+    <oplus-feature name="oplus.software.audio.alert_slider" />
+</oplus-config>

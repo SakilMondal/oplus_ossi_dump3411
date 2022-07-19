@@ -1,0 +1,19 @@
+<oplus-config>
+   <!-- Guofu.Yang@ANDROID.WMS.2458273, 2020/08/13, Add for app resolution switch -->
+   <oplus-feature name="oplus.software.app_resolution_switch" />
+   <oplus-feature name="oplus.software.app_resolution_auto" />
+   <!-- ifdef OPLUS_FEATURE_HW_MANUFACTURER_MTK -->
+   <!-- xieliangzhuo@ANDROID.CONFIG, 2021/01/25, Add for mtk feature -->
+   <oplus-feature name="oplus.software.hw.manufacturer.mtk"/>
+   <!-- endif OPLUS_FEATURE_HW_MANUFACTURER_MTK -->
+    <!-- Allen.Xu@ANDROID.SYSTEM, 2021/06/25, add for detect op brand to add more allowed multi app -->
+    <oplus-feature name="oplus.software.multiapp.add_more_multiapps" />
+    <!-- Allen.Xu@ANDROID.SYSTEM, 2021/06/25, add end -->
+   <!-- Cyurs.liu@ANDROID.SYSTEM, 2022/01/19, add for Linear motor vibrator -->
+   <oplus-feature name="oplus.software.vibrator_lmvibrator" />
+   <!-- Cyurs.liu@ANDROID.SYSTEM, 2022/01/19, add end -->
+    <!-- steve.shen@OPTI, 2021/03/12, Add for animation scroll opt -->
+    <oplus-feature name="oplus.software.scroll.animation_opt" />
+    <!-- Gaohan.Wang@OPTI, 2021/09/18, Add for Linear richctap feature -->
+    <oplus-feature name="oplus.software.vibrator_richctap" />
+</oplus-config>
